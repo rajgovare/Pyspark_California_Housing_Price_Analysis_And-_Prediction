@@ -23,7 +23,7 @@ This project follows a structured approach, including the following key steps:
 3. **Predictive Modeling**:
    - Implemented a Gradient Boosted Trees (GBT) regression model to predict house prices.
    - Applied cross-validation and hyperparameter tuning using a grid search approach to optimize the model.
-   - Evaluated model performance using metrics such as Root Mean Squared Error (RMSE), R² score, and Mean Absolute Error (MAE) on both validation and test datasets.
+   - Evaluated model performance using R² score on both validation and test datasets.
      
 ---
 
@@ -74,11 +74,11 @@ Below are the key analyses performed using PySpark:
    The analyses provide valuable insights into factors influencing housing prices in California, including income, age of housing, population density, and geographical location. The model's ability to predict housing values was enhanced by carefully considering these factors, making it a useful tool for understanding and forecasting real estate trends in the region.
 
    Also,The predictive analysis of California housing data using Gradient Boosted Trees (GBT) Regressor demonstrated strong performance on both the validation and test datasets.
-Key evaluation metrics such as RMSE (Root Mean Squared Error), R² (Coefficient of Determination), and MAE (Mean Absolute Error) were computed to assess the model's accuracy:
+Key evaluation metric R² (Coefficient of Determination) were computed to assess the model's accuracy:
 
-- **Validation Metrics:** The model showed a low RMSE, indicating relatively small prediction errors, and a high R², suggesting that it explained a significant portion of the variance in the housing prices. The MAE was also within an acceptable range, indicating that the average magnitude of errors was reasonable.
+- **Validation Metrics:** The model showed high R², suggesting that it explained a significant portion of the variance in the housing prices.
 
-- **Test Metrics:** The performance on the test set was consistent with the validation results, confirming that the model generalized well to unseen data. Similar trends in RMSE, R², and MAE were observed on the test set, suggesting robustness and reliability.
+- **Test Metrics:** The performance on the test set was consistent with the validation results, confirming that the model generalized well to unseen data. Similar trends in R² were observed on the test set, suggesting robustness and reliability.
 
   The analyses provide valuable insights into factors influencing housing prices in California, including income, age of housing, population density, and geographical location. The model's ability to predict housing values was enhanced by carefully considering these factors, making it a useful tool for understanding and forecasting real estate trends in the region.
 
